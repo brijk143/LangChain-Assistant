@@ -13,24 +13,26 @@ This project is a simple chatbot built using **Google's Gemini-1.5-Pro** model v
 ## Installation  
 
 ###
-1. Clone the Repository  
+1. Clone the Repository
+
 2. Create a Virtual Environment
-   
-python -m venv venv
-4. Activate the Virtual Environment
-Windows:
+  python -m venv venv
 
-venv\Scripts\activate
-Mac/Linux:
+3. Activate the Virtual Environment
 
-source venv/bin/activate
-5. Install Dependencies
+Windows:    venv\Scripts\activate
+
+Mac/Linux:   source venv/bin/activate
+
+4. Install Dependencies
 pip install -r requirements.txt
-6. Set Up Environment Variables
+
+5. Set Up Environment Variables
 Create a .env file in the root directory and add your Google API key:
 GOOGLE_API_KEY="your-api-key-here"
 Or, rename the provided .env.txt file to .env.
-7. Run the Application
+
+6 Run the Application
 streamlit run prompts.py
  
 Dependencies:
